@@ -1,0 +1,36 @@
+/* Project custom styles */
+
+/* Carousel hero images: uniform size and crop */
+.hero-img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+}
+@media (max-width: 576px) {
+  .hero-img { height: 240px; }
+}
+
+/* Feature section image: match carousel hero size */
+.feature-img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+}
+@media (max-width: 576px) {
+  .feature-img { height: 240px; }
+}
+
+/* Cards: uniform card width and image height */
+.card.feature-card {
+  width: 18rem;
+}
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Footer logo */
+.footer-logo {
+  height: 40px;
+  width: auto;
+}
